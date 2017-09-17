@@ -24,12 +24,12 @@
   },
   "autoload": {
     "psr-4": {
-      "ovac\\LaravelHubtelPayment\\": "src"
+      "OVAC\\LaravelHubtelPayment\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "ovac\\LaravelHubtelPayment\\Tests\\": "tests"
+      "OVAC\\LaravelHubtelPayment\\Tests\\": "tests"
     },
     "files": [
       "vendor/phpunit/phpunit/src/Framework/Assert/Functions.php"
@@ -41,7 +41,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "ovac\\LaravelHubtelPayment\\ServiceProvider"
+        "OVAC\\LaravelHubtelPayment\\ServiceProvider"
       ]
     }
   },
