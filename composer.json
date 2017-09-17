@@ -8,10 +8,10 @@
     "payment"
   ],
   "authors": [
-    {
-      "name": "Ariama Victor (A. K. A. OVAC4U)",
-      "email": "Ariama Victor <iamovac@gmail.com>"
-    }
+      {
+          "name": "Ariama Victor (A.K.A. OVAC BOYA)",
+          "email": "iamovac@gmail.com"
+      }
   ],
   "require": {
     "php": ">=7.0",
