@@ -1,0 +1,53 @@
+{
+  "name": "ovac/laravel-hubtel-payment",
+  "description": "A Laravel package for consuming the Hubtel Payment Api",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "hubtel",
+    "payment"
+  ],
+  "authors": [
+    {
+      "name": "Ariama Victor (A. K. A. OVAC4U)",
+      "email": "Ariama Victor <iamovac@gmail.com>"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "~5.5.0",
+    "ovac/hubtel-payment": "~2.0.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "~3.5.0",
+    "phpunit/phpunit": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ovac\\laravelHubtelPayment\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ovac\\laravelHubtelPayment\\Tests\\": "tests"
+    },
+    "files": [
+      "vendor/phpunit/phpunit/src/Framework/Assert/Functions.php"
+    ]
+  },
+  "scripts": {
+    "phpunit": "phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ovac\\laravel-Hubtel-Payment\\ServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
