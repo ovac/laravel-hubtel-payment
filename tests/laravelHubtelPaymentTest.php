@@ -1,12 +1,12 @@
 <?php
 
-namespace ovac\laravelHubtelPayment\Tests;
+namespace ovac\LaravelHubtelPayment\Tests;
 
 use Orchestra\Testbench\TestCase;
-use ovac\laravelHubtelPayment\Facades\laravelHubtelPayment;
-use ovac\laravelHubtelPayment\ServiceProvider;
+use ovac\LaravelHubtelPayment\Facades\LaravelHubtelPayment;
+use ovac\LaravelHubtelPayment\ServiceProvider;
 
-class laravelHubtelPaymentTest extends TestCase
+class LaravelHubtelPaymentTest extends TestCase
 {
     protected function getPackageProviders($app)
     {
@@ -16,7 +16,7 @@ class laravelHubtelPaymentTest extends TestCase
     protected function getPackageAliases($app)
     {
         return [
-            'laravel-hubtel-payment' => laravelHubtelPayment::class,
+            'laravel-hubtel-payment' => LaravelHubtelPayment::class,
         ];
     }
 

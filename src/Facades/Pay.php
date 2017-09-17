@@ -1,6 +1,6 @@
 <?php
 
-namespace ovac\laravelHubtelPayment\Facades;
+namespace ovac\LaravelHubtelPayment\Facades;
 
 use Illuminate\Support\Facades\Facade;
 use OVAC\HubtelPayment\Pay as HubtelPay;

@@ -1,10 +1,10 @@
 <?php
 
-namespace ovac\laravelHubtelPayment;
+namespace ovac\LaravelHubtelPayment;
 
 use OVAC\HubtelPayment\Config;
 
-class laravelHubtelPayment
+class LaravelHubtelPayment
 {
     public static function getConfig()
     {

@@ -25,20 +25,20 @@ auto discovery feature.**
 
 Add service provider to `config/app.php` in `providers` section
 ```php
-ovac\laravelHubtelPayment\ServiceProvider::class,
+ovac\LaravelHubtelPayment\ServiceProvider::class,
 ```
 
 ### Register Facade
 
 Register package facade in `config/app.php` in `aliases` section
 ```php
-ovac\laravelHubtelPayment\Facades\laravelHubtelPayment::class,
+ovac\LaravelHubtelPayment\Facades\LaravelHubtelPayment::class,
 ```
 
 ### Publish Configuration File
 
 ```
-php artisan vendor:publish --provider="ovac\laravelHubtelPayment\ServiceProvider" --tag="config"
+php artisan vendor:publish --provider="ovac\LaravelHubtelPayment\ServiceProvider" --tag="config"
 ```
 
 ## Usage
