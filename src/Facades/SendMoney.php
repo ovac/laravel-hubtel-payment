@@ -3,12 +3,12 @@
 namespace OVAC\LaravelHubtelPayment\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use OVAC\HubtelPayment\Pay as HubtelPay;
+use OVAC\HubtelPayment\Api\Transaction\SendMoney as Send;
 
-class Pay extends Facade
+class SendMoney extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return HubtelPay::class;
+        return Send::class;
     }
 }

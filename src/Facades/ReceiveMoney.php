@@ -1,6 +1,6 @@
 <?php
 
-namespace ovac\LaravelHubtelPayment\Facades;
+namespace OVAC\LaravelHubtelPayment\Facades;
 
 use Illuminate\Support\Facades\Facade;
 use OVAC\HubtelPayment\Api\Transaction\ReceiveMoney as Receive;

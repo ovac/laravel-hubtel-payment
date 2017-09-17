@@ -1,6 +1,6 @@
 <?php
 
-namespace ovac\LaravelHubtelPayment;
+namespace OVAC\LaravelHubtelPayment;
 
 use OVAC\HubtelPayment\Config;
 

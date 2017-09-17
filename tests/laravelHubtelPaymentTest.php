@@ -1,10 +1,10 @@
 <?php
 
-namespace ovac\LaravelHubtelPayment\Tests;
+namespace OVAC\LaravelHubtelPayment\Tests;
 
+use LaravelHubtelPayment\Facades\LaravelHubtelPayment;
+use LaravelHubtelPayment\ServiceProvider;
 use Orchestra\Testbench\TestCase;
-use ovac\LaravelHubtelPayment\Facades\LaravelHubtelPayment;
-use ovac\LaravelHubtelPayment\ServiceProvider;
 
 class LaravelHubtelPaymentTest extends TestCase
 {

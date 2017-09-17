@@ -15,7 +15,7 @@ return [
     | Example: HM2707170000
      */
 
-    'account_number' => env('HUBTEL_ACCONUT_NUMBER', 'null'),
+    'account_number' => env('HUBTEL_ACCONUT_NUMBER', null),
 
     /*
     |--------------------------------------------------------------------------
@@ -29,10 +29,16 @@ return [
 
     'client' => [
 
-        // Replace the 'null' with the Client ID or define in the .env file
-        'id' => env('HUBTEL_CLIENT_ID', 'null'),
+        /**
+         * Define this variable in your .env file or replace the 'null'
+         * with your Hubtel Merchannt Client ID
+         */
 
-        // Replace the 'null' with the Client Secret or define in the .env file
-        'secret' => env('HUBTEL_CLIENT_SECRET', 'null'),
+        'id' => env('HUBTEL_CLIENT_ID', null),
+        /**
+         * Define this variable in your .env file or replace the 'null'
+         * with your Hubtel Merchannt Client Secret
+         */
+        'secret' => env('HUBTEL_CLIENT_SECRET', null),
     ],
 ];

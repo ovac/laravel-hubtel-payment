@@ -1,6 +1,6 @@
 <?php
 
-namespace ovac\LaravelHubtelPayment;
+namespace OVAC\LaravelHubtelPayment;
 
 use OVAC\HubtelPayment\Api\Api;
 
@@ -26,7 +26,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         //     return new LaravelHubtelPayment();
         // });
 
-        $this->app->extend(Api::class, function ($app, $api) {
+        $this->app->resolving(Api::class, function ($api) {
             $api->injectConfig(LaravelHubtelPayment::getConfig());
         });
     }
