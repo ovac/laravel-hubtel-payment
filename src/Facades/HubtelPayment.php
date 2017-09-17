@@ -14,12 +14,12 @@
 namespace OVAC\LaravelHubtelPayment\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use OVAC\HubtelPayment\Api\Transaction\ReceiveMoney as Receive;
+use OVAC\HubtelPayment\Pay;
 
-class ReceiveMoney extends Facade
+class HubtelPayment extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return Receive::class;
+        return Pay::class;
     }
 }
