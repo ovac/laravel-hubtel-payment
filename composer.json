@@ -41,7 +41,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "ovac\\laravel-Hubtel-Payment\\ServiceProvider"
+        "ovac\\LaravelHubtelPayment\\ServiceProvider"
       ]
     }
   },
