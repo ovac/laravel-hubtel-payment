@@ -21,9 +21,9 @@ A Laravel 5.5 integration for the [OVAC Hubtel Payment](https://www.ovac4u.com/h
 
 ## Introduction.
 
-Laravel Hubtel Payment [OVAC\laravel-hubtel-payment](https://www.github.com/ovac/laravel-hubtel-payment) is a Laravel package extension for a seamless integration of the [OVAC Hubtel Payment](https://www.ovac4u.com/hubtel-payment) php client for consuming the Hubtel Payment API and processing mobile-money transactions in a Laravel application.
+Laravel Hubtel Payment is a Laravel 5.5 seamless integration of the [OVAC Hubtel Payment](https://www.ovac4u.com/hubtel-payment) php client for consuming the Hubtel Payment API and processing mobile-money transactions in a Laravel application.
 
-With this package, it is easy to process mobile money transactions and automate Mobile Money payment-flow on any mobile network in Ghana.
+With this package, it is easy to process mobile money transactions and automate Mobile Money payment from and to any mobile money subscriber in Ghana from any laravel controller.
 
 ## Installation
 
