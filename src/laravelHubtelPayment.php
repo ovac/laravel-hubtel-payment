@@ -13,6 +13,8 @@
 
 namespace OVAC\LaravelHubtelPayment;
 
+use OVAC\HubtelPayment\Api\Transaction\ReceiveMoney;
+use OVAC\HubtelPayment\Api\Transaction\SendMoney;
 use OVAC\HubtelPayment\Config;
 
 class LaravelHubtelPayment
@@ -24,6 +26,16 @@ class LaravelHubtelPayment
             config('laravel-hubtel-payment.client.id'),
             config('laravel-hubtel-payment.client.secret')
         );
+    }
+
+    public static function sendMoney()
+    {
+        return new SendMoney;
+    }
+
+    public static function receiveMoney()
+    {
+        return new ReceiveMoney;
     }
 
 }

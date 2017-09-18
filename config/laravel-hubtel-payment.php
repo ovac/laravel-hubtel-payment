@@ -52,4 +52,19 @@ return [
          */
         'secret' => env('HUBTEL_CLIENT_SECRET', null),
     ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Hubtel Callback Url
+    |--------------------------------------------------------------------------
+    |
+    | This Segment defines the global URL to send call back after a success full
+    | or unsuccessful call to the Hubtel Payment API.
+    |
+    | Example: HM2707170000
+     */
+
+    'success_callback_url' => env('HUBTEL_CALLBACK_URL', null),
+
+    'error_callback_url' => env('HUBTEL_SECONDARY_CALLBACK_URL', null),
 ];

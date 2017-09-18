@@ -62,7 +62,7 @@ php artisan vendor:publish --provider="OVAC\LaravelHubtelPayment\ServiceProvider
 
 Add these lines in the application .env and use your Hubtel Merchant Account Number, ClentID, ClientSecret and callback as shown below.
 
-Don't know what this is? checkout this documentation [](https://www.ovac4u.com/hubtel-payment/config.html)
+Don't know what this is? [checkout this documentation](https://www.ovac4u.com/hubtel-payment/config.html)
 
 ``` sh
 HUBTEL_ACCOUNT_NUMBER=HM00000 #Your Hubtel Merchant Account Number
