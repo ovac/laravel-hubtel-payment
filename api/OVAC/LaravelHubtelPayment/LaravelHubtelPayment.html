@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="index, follow, all" />
+    <title>OVAC\LaravelHubtelPayment\LaravelHubtelPayment | Laravel Hubtel Payment API</title>
+
+            <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="../../css/sami.css">
+        <script src="../../js/jquery-1.11.1.min.js"></script>
+        <script src="../../js/bootstrap.min.js"></script>
+        <script src="../../js/typeahead.min.js"></script>
+        <script src="../../sami.js"></script>
+        <meta name="MobileOptimized" content="width">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    
+    
+    </head>
+
+    <body id="class" data-name="class:OVAC_LaravelHubtelPayment_LaravelHubtelPayment" data-root-path="../../">
+            <div id="content">
+        <div id="left-column">
+                <div id="control-panel">
+                <script>
+            $('option[data-version="'+window.projectVersion+'"]').prop('selected', true);
+        </script>
+        <form id="search-form" action="../../search.html" method="GET">
+            <span class="glyphicon glyphicon-search"></span>
+            <input name="search"
+                   class="typeahead form-control"
+                   type="search"
+                   placeholder="Search">
+        </form>
+    </div>
+
+                <div id="api-tree"></div>
+
+        </div>
+        <div id="right-column">
+                <nav id="site-nav" class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-elements">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../../index.html">Laravel Hubtel Payment API</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-elements">
+                <ul class="nav navbar-nav">
+                    <li><a href="../../classes.html">Classes</a></li>
+                                            <li><a href="../../namespaces.html">Namespaces</a></li>
+                                        <li><a href="../../interfaces.html">Interfaces</a></li>
+                    <li><a href="../../traits.html">Traits</a></li>
+                    <li><a href="../../doc-index.html">Index</a></li>
+                    <li><a href="../../search.html">Search</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+                        <div class="namespace-breadcrumbs">
+            <ol class="breadcrumb">
+                <li><span class="label label-default">class</span></li>
+                        <li><a href="../../OVAC.html">OVAC</a></li><li class="backslash">\</li><li><a href="../../OVAC/LaravelHubtelPayment.html">LaravelHubtelPayment</a></li><li class="backslash">\</li><li>LaravelHubtelPayment</li>
+            </ol>
+        </div>
+                <div id="page-content">
+                
+    <div class="page-header">
+        <h1>
+            LaravelHubtelPayment
+                
+        </h1>
+    </div>
+
+    <p>    class
+    <strong>LaravelHubtelPayment</strong>        extends <abbr title="OVAC\HubtelPayment\Pay">Pay</abbr>        (<a href="https://github.com/OVAC/laravel-hubtel-payment/blob/master/src/laravelHubtelPayment.php">View source</a>)
+</p>
+
+        
+    
+
+            <div class="description">
+            <p>class LaravelHubtelPayment</p>            <p>This class extends the \OVAC\HubtelPayment\Pay::class class and pre-assisgs a
+few configuration that can be easily swapped and built upon for a seamless
+integration with a laravel application and the facade exposed by this
+package.</p>
+
+<p>It is also the main entry class for this package.</p>                    </div>
+    
+    
+    
+    
+            <h2>Methods</h2>
+
+            <div class="container-fluid underlined">
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <abbr title="OVAC\HubtelPayment\Config">Config</abbr>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method_getConfig">getConfig</a>()
+        
+                                            <p>This method returns an instance of the \OVAC\HubtelPayment\Config created with
+the hubtel client account expected in the Laravel Hubtel Payment congiguration</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+                    <div class="row">
+                <div class="col-md-2 type">
+                    <abbr title="OVAC\HubtelPayment\Api\Transaction\Transaction">Transaction</abbr>
+                </div>
+                <div class="col-md-8 type">
+                    <a href="#method___call">__call</a>(string $className, array $parameters)
+        
+                                            <p>This class dynamically places a call to the OVAC\HubtelPayment\Pay::class
+and calls the a dynamic static method which in turn returns the class
+required by the fascade which this package exposes.</p>                </div>
+                <div class="col-md-2"></div>
+            </div>
+            </div>
+
+
+        <h2>Details</h2>
+
+            <div id="method-details">
+                    <div class="method-item">
+                    <h3 id="method_getConfig">
+        <div class="location">at         <a href="https://github.com/OVAC/laravel-hubtel-payment/blob/master/src/laravelHubtelPayment.php#L37">line 37</a></div>
+        <code>                    <abbr title="OVAC\HubtelPayment\Config">Config</abbr>
+    <strong>getConfig</strong>()
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>This method returns an instance of the \OVAC\HubtelPayment\Config created with
+the hubtel client account expected in the Laravel Hubtel Payment congiguration</p>                                                </div>
+                <div class="tags">
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><abbr title="OVAC\HubtelPayment\Config">Config</abbr></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+                    <div class="method-item">
+                    <h3 id="method___call">
+        <div class="location">at         <a href="https://github.com/OVAC/laravel-hubtel-payment/blob/master/src/laravelHubtelPayment.php#L55">line 55</a></div>
+        <code>                    <abbr title="OVAC\HubtelPayment\Api\Transaction\Transaction">Transaction</abbr>
+    <strong>__call</strong>(string $className, array $parameters)
+        </code>
+    </h3>
+    <div class="details">
+            
+    
+
+                    <div class="method-description">
+                                    <p>This class dynamically places a call to the OVAC\HubtelPayment\Pay::class
+and calls the a dynamic static method which in turn returns the class
+required by the fascade which this package exposes.</p>                                                </div>
+                <div class="tags">
+                            <h4>Parameters</h4>
+
+                    <table class="table table-condensed">
+                    <tr>
+                <td>string</td>
+                <td>$className</td>
+                <td>the name of the class that class will call.</td>
+            </tr>
+                    <tr>
+                <td>array</td>
+                <td>$parameters</td>
+                <td>parameters in the case of mass assignment</td>
+            </tr>
+            </table>
+
+            
+                            <h4>Return Value</h4>
+
+                    <table class="table table-condensed">
+        <tr>
+            <td><abbr title="OVAC\HubtelPayment\Api\Transaction\Transaction">Transaction</abbr></td>
+            <td></td>
+        </tr>
+    </table>
+
+            
+            
+                    </div>
+    </div>
+
+            </div>
+            </div>
+
+    
+            </div>
+                <div id="footer">
+        Generated by <a href="http://sami.sensiolabs.org/">Sami, the API Documentation Generator</a>.
+    </div>
+
+        </div>
+    </div>
+    </body>
+
+</html>
