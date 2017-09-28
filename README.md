@@ -49,7 +49,7 @@ OVAC\LaravelHubtelPayment\ServiceProvider::class,
 
 Register package facade in `config/app.php` in `aliases` section
 ```php
-OVAC\LaravelHubtelPayment\Facades\LaravelHubtelPayment::class,
+'HubtelPayment' => OVAC\LaravelHubtelPayment\Facades\LaravelHubtelPayment::class,
 ```
 
 ### Publish Configuration File
