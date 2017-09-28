@@ -13,8 +13,6 @@
 
 namespace OVAC\LaravelHubtelPayment;
 
-use OVAC\HubtelPayment\Api\Api;
-
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     const CONFIG_PATH = __DIR__ . '/../config/laravel-hubtel-payment.php';
@@ -33,14 +31,10 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
             'laravel-hubtel-payment'
         );
 
-        $this->app->resolving(Api::class, function ($api) {
-            $api->injectConfig(LaravelHubtelPayment::getConfig());
-        });
-
-        $this->app->singleton('HubtelPayment', function ($app) {
+        $this->app->bind('HubtelPayment', function ($app) {
             return new LaravelHubtelPayment;
         });
 
-        $this->app->alias('HubtelPayment', HubtelPayment::class);
+        $this->app->alias('HubtelPayment', LaravelHubtelPayment::class);
     }
 }
