@@ -20,7 +20,12 @@
   },
   "require-dev": {
     "orchestra/testbench": "~3.5.0",
-    "phpunit/phpunit": "~6.0"
+    "phpunit/phpunit": "~6.0",
+    "squizlabs/php_codesniffer": "^2.9.1",
+    "leaphub/phpcs-symfony2-standard": "^2.0.3",
+    "phpmd/phpmd" : "^2.6.0",
+    "sebastian/phpcpd": "*",
+    "satooshi/php-coveralls": "^1.0"
   },
   "autoload": {
     "psr-4": {
@@ -36,7 +41,18 @@
     ]
   },
   "scripts": {
-    "phpunit": "phpunit"
+    "phpunit"  : "phpunit",
+    "phpcpd"   : "phpcpd src",
+    "phpcs"    : "phpcs --standard=./vendor/leaphub/phpcs-symfony2-standard/leaphub/phpcs/Symfony2/ --extensions=php ./src",
+    "phpcbf"   : "phpcbf",
+    "phpmd"    : "phpmd ./src text phpmd.xml",
+    "phpcpd-ci": "phpcpd --log-pmd=./build/phpcpd-report.xml  ./src",
+    "phpmd-ci" : "phpmd ./src xml phpmd.xml --reportfile ./build/phpmd-report.xml",
+    "phpcs-ci" : "phpcs --standard=./vendor/leaphub/phpcs-symfony2-standard/leaphub/phpcs/Symfony2/ --report=checkstyle --report-file=./build/phpcs-checkstyle-report.xml --extensions=php src",
+    "test"     : "phpunit; composer phpcs; composer phpmd; composer phpcpd;",
+    "sami"     : "./sami.phar update ./sami.config.php -v",
+    "document" : "bin/document.sh;",
+    "coverage" : "coveralls -v"
   },
   "extra": {
     "laravel": {

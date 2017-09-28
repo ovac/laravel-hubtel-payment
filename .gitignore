@@ -4,3 +4,7 @@
 /composer.lock
 /composer.lock
 /.phpintel
+/build
+composer.phar
+couscous.phar
+sami.phar

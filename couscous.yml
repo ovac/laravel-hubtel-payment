@@ -1,0 +1,67 @@
+# Wondering what this file is? 
+# See: https://github.com/ovac/ovac-couscous-theme
+# See: http://couscous.io
+
+# Base URL of the published website
+baseUrl: https://www.ovac4u.com/hubtel-payment
+
+# Used to link to the GitHub project
+github:
+    user: ovac
+    repo: laravel-hubtel-payment
+
+widgets:
+    addthis: ra-599a2b3ed56dd5f2
+    googleAnalytics: UA-104991685-1
+    googletag: GTM-TWFSSDL
+
+template:
+    url: https://github.com/ovac/ovac-couscous-template
+
+include:
+    - .
+
+exclude:
+    - vendor
+
+title: Laravel Hubtel Payment
+subTitle: Laravel meets Hubtel. What a beautiful union.
+
+# The left menu bar
+menu:
+    sections:
+        introduction:
+            name: Introduction
+            items:
+                home:
+                    text: Home
+                    relativeUrl:
+        api:
+            name: Api
+            items:
+                api:
+                    text: Api
+                    relativeUrl: api/index.html
+
+                coverage:
+                    text: Coverage
+                    relativeUrl: coverage/index.html
+        
+        links:
+            name: Links
+            items:
+                ovac-hubtel-payment:
+                    text: How does this work?
+                    absoluteUrl: https://www.ovac4u.com/hubtel-payment
+
+                hubtel-documentation:
+                    text: Hubtel Official Documentation
+                    absoluteUrl: https://developers.hubtel.com/documentations/merchant-account-api
+                
+                hubtel-swagger:
+                    text: Hubtel Official Api Swagger UI
+                    absoluteUrl: https://api.hubtel.com/v1/merchantaccount/swagger/ui/index
+                    
+                ovac-hubtel-payment:
+                    text: See who's behind this.
+                    absoluteUrl: https://www.ovac4u.com

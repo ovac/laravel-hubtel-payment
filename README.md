@@ -69,13 +69,13 @@ HUBTEL_ACCOUNT_NUMBER=HM00000 #Your Hubtel Merchant Account Number
 HUBTEL_CLIENT_ID=XXXXXXXX     #Your Hubtel Merchant Client ID
 HUBTEL_CLIENT_SECRET=XXXXXXXX #Your Hubtel Merchant Client Secret.
 HUBTEL_CALLBACK_URL=https://example.com/payment_success #Default Callback URL
-#HUBTEL_SECONDARY_CALLBACK_URL=https://example.com/error
+HUBTEL_SECONDARY_CALLBACK_URL=https://example.com/error
 ```
 
 ## Basic Usage
 This library exposes a handfull of facade that seamlessly interfaces with the hubtel-payment php client main classes for basic usage in order to make local configuration optional.
 
-### Note: For usage, please refer to the OVAC Hubtel Payment documentation, located [here](https://www.ovac4u.com/hubtel-payment).
+### Note: For advance usage, please refer to the OVAC Hubtel Payment documentation, located [here](https://www.ovac4u.com/hubtel-payment).
 
 Just use the Laravel facade alias `HubtelPayment::` instead of the native calls.
 
@@ -85,11 +85,13 @@ Just use the Laravel facade alias `HubtelPayment::` instead of the native calls.
 ``` php
 <?php
 
-use OVAC\LaravelHubtelPayment\Facades\ReceiveMoney;
+use OVAC\LaravelHubtelPayment\Facades\HubtelPayment;
 
-$payment = ReceiveMoney::from('0553577261')          //- The phone number to send the prompt to.
+// NOTE: The phone number must be of type string as Laravel considers all numbers with a leading 0 to be a hex number.
+$payment = HubtelPayment::ReceiveMoney()
+                ->from('0553577261')                //- The phone number to send the prompt to. 
                 ->amount(100.00)                    //- The exact amount value of the transaction
-                ->desctiption('Online Purchase')    //- Description of the transaction.
+                ->description('Online Purchase')    //- Description of the transaction.
                 ->customerName('Ariama Victor')     //- Name of the person making the payment.callback after payment. 
                 ->channel('mtn-gh')                 //- The mobile network Channel.configuration
                 ->run();                            //- Run the transaction after required data.
@@ -102,11 +104,13 @@ $payment = ReceiveMoney::from('0553577261')          //- The phone number to sen
 ```php
 <?php
 
-use OVAC\LaravelHubtelPayment\Facades\SendMoney;
+use OVAC\LaravelHubtelPayment\Facades\HubtelPayment;
 
-$payment = SendMoney::to(0553577261)                //- The phone number to send the prompt to.
+// NOTE: The phone number must be of type string as Laravel considers all numbers with a leading 0 to be a hex number.
+$payment = HubtelPayment::SendMoney()
+                ->to('0553577261')                  //- The phone number to send the prompt to.
                 ->amount(100.00)                    //- The exact amount value of the transaction
-                ->desctiption('Online Purchase')    //- Description of the transaction.
+                ->description('Online Purchase')    //- Description of the transaction.
                 ->customerEmail('admin@ovac4u.com') //- Name of the person making the payment.
                 ->channel('mtn-gh')                 //- The mobile network Channel.
                 ->run();                            //- Run the transaction after required data.
@@ -118,12 +122,13 @@ $payment = SendMoney::to(0553577261)                //- The phone number to send
 ```php
 <?php
 
-use OVAC\LaravelHubtelPayment\Facades\Refund;
+use OVAC\LaravelHubtelPayment\Facades\HubtelPayment;
 
-$payment = Refund::transactionId(1234)              //- The ID of the transaction to refund.
+$payment = HubtelPayment::Refund()
+                ->transactionId(1234)               //- The ID of the transaction to refund.
                 ->amount(100.00)                    //- The exact amount value of the transaction
                 ->clientReference('#11212')         //- A refeerence on your end.
-                ->desctiption('Useless Purchase')   //- Description of the transaction.
+                ->description('Useless Purchase')   //- Description of the transaction.
                 ->reason('No longer needs a pen')   //- Name of the person making the payment.
                 ->full()                            //- Full or partial refund.
                 ->run();                            //- Run the transaction after required data.
@@ -136,5 +141,10 @@ instead of using the issue tracker.
 
 ## Credits
 
-- [](https://github.com/ovac/laravel-hubtel-payment)
+- [Documentation/Official Page](https://www.ovac4u.com/laravel-hubtel-payment)
+- [Official Repo: Github](https://github.com/ovac/laravel-hubtel-payment)
+- [Hubtel Merchant Payment Reference](https://developers.hubtel.com/documentations/merchant-account-api)
+- [Laravel framework](http://laravel.com)
+- [LICENCE: MIT](https://github.com/ovac/hubtel-payment/blob/licence)
 - [All contributors](https://github.com/ovac/laravel-hubtel-payment/graphs/contributors)
+- [CHANGELOG](https://github.com/ovac/hubtel-payment/blob/master/CHANGELOG.md)
