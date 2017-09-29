@@ -1,2 +1,11 @@
 preset: laravel
 linting: true
+
+disabled:
+  - phpdoc_no_package
+  
+finder:
+  exclude:
+    - "tests"
+  path:
+    - "src"
