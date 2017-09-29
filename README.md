@@ -1,4 +1,3 @@
-<p align="center">
 # Laravel Hubtel Payment
 A Laravel 5.5 integration for the [OVAC Hubtel Payment](https://www.ovac4u.com/hubtel-payment) package.
 
@@ -10,7 +9,6 @@ A Laravel 5.5 integration for the [OVAC Hubtel Payment](https://www.ovac4u.com/h
 [![Dependency Status](https://www.versioneye.com/user/projects/59cda451368b08320ffe7190/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/59cda451368b08320ffe7190)
 
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/5322525b-9a9a-4019-82c4-b2ddc3de04fe/big.png)](https://insight.sensiolabs.com/projects/5322525b-9a9a-4019-82c4-b2ddc3de04fe)
-</p>
 
 ```md
  Follow me anywhere @ovac4u                         | GitHub
