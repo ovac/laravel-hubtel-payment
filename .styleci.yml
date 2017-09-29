@@ -4,6 +4,7 @@ linting: true
 disabled:
   - phpdoc_no_package
   - concat_without_spaces
+  - no_spaces_after_function_name
   
 finder:
   exclude:
