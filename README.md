@@ -2,7 +2,6 @@
 A Laravel 5.5 integration for the [OVAC Hubtel Payment](https://www.ovac4u.com/hubtel-payment) package.
 
 [![Build Status](https://travis-ci.org/ovac/laravel-hubtel-payment.svg?branch=master)](https://travis-ci.org/ovac/laravel-hubtel-payment)
-[![styleci](https://styleci.io/repos/CHANGEME/shield)](https://styleci.io/repos/CHANGEME)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ovac/laravel-hubtel-payment/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ovac/laravel-hubtel-payment/badges/quality-score.png?b=master)
 [![Coverage Status](https://coveralls.io/repos/github/ovac/laravel-hubtel-payment/badge.svg?branch=revert-1-analysis-XkyPYa)](https://coveralls.io/github/ovac/laravel-hubtel-payment?branch=revert-1-analysis-XkyPYa)
 [![Latest Stable Version](https://poser.pugx.org/ovac/laravel-hubtel-payment/v/stable)](https://packagist.org/packages/ovac/laravel-hubtel-payment)
