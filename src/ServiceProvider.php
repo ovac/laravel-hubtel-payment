@@ -14,11 +14,11 @@
 namespace OVAC\LaravelHubtelPayment;
 
 /**
- * class ServiceProvider
+ * class ServiceProvider.
  */
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
-    const CONFIG_PATH = __DIR__ . '/../config/laravel-hubtel-payment.php';
+    const CONFIG_PATH = __DIR__.'/../config/laravel-hubtel-payment.php';
 
     /**
      * Inject the configurration for this package from the
@@ -34,7 +34,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
     }
 
     /**
-     * Binds this package with the Laravel Application
+     * Binds this package with the Laravel Application.
      *
      * @return void
      */

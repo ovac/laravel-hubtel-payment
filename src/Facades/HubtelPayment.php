@@ -14,10 +14,9 @@
 namespace OVAC\LaravelHubtelPayment\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use OVAC\LaravelHubtelPayment\LaravelHubtelPayment;
 
 /**
- * class HubtelPayment
+ * class HubtelPayment.
  *
  * This facade is the main entry for this application.
  *
