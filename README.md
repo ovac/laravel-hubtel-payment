@@ -7,7 +7,7 @@ A Laravel 5.5 integration for the [OVAC Hubtel Payment](https://www.ovac4u.com/h
 [![Latest Stable Version](https://poser.pugx.org/ovac/laravel-hubtel-payment/v/stable)](https://packagist.org/packages/ovac/laravel-hubtel-payment)
 [![Packagist](https://poser.pugx.org/ovac/laravel-hubtel-payment/d/total.svg)](https://packagist.org/packages/ovac/laravel-hubtel-payment)
 [![Packagist](https://img.shields.io/packagist/l/ovac/laravel-hubtel-payment.svg)](https://packagist.org/packages/ovac/laravel-hubtel-payment)
-[![Dependency Status](https://www.versioneye.com/user/projects/59cda451368b08320ffe7190/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/59cda451368b08320ffe7190)
+[![Dependency Status](https://www.versioneye.com/user/projects/59cda451368b08320ffe7190/badge.svg)](https://www.versioneye.com/user/projects/59cda451368b08320ffe7190)
 
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/5322525b-9a9a-4019-82c4-b2ddc3de04fe/big.png)](https://insight.sensiolabs.com/projects/5322525b-9a9a-4019-82c4-b2ddc3de04fe)
 
