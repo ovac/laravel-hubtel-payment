@@ -5,8 +5,7 @@ A Laravel 5.5 integration for the [OVAC Hubtel Payment](https://www.ovac4u.com/h
 [![styleci](https://styleci.io/repos/CHANGEME/shield)](https://styleci.io/repos/CHANGEME)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ovac/laravel-hubtel-payment/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ovac/laravel-hubtel-payment/?branch=master)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/CHANGEME/mini.png)](https://insight.sensiolabs.com/projects/CHANGEME)
-
-[![Packagist](https://img.shields.io/packagist/v/ovac/laravel-hubtel-payment.svg)](https://packagist.org/packages/ovac/laravel-hubtel-payment)
+[![Coverage Status](https://coveralls.io/repos/github/ovac/laravel-hubtel-payment/badge.svg?branch=revert-1-analysis-XkyPYa)](https://coveralls.io/github/ovac/laravel-hubtel-payment?branch=revert-1-analysis-XkyPYa)[![Packagist](https://img.shields.io/packagist/v/ovac/laravel-hubtel-payment.svg)](https://packagist.org/packages/ovac/laravel-hubtel-payment)
 [![Packagist](https://poser.pugx.org/ovac/laravel-hubtel-payment/d/total.svg)](https://packagist.org/packages/ovac/laravel-hubtel-payment)
 [![Packagist](https://img.shields.io/packagist/l/ovac/laravel-hubtel-payment.svg)](https://packagist.org/packages/ovac/laravel-hubtel-payment)
 
