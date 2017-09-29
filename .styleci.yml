@@ -3,6 +3,7 @@ linting: true
 
 disabled:
   - phpdoc_no_package
+  - concat_without_spaces
   
 finder:
   exclude:
