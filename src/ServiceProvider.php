@@ -45,7 +45,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
             'laravel-hubtel-payment'
         );
 
-        $this->app->bind('HubtelPayment', function () {
+        $this->app->bind('HubtelPayment', function() {
             return new LaravelHubtelPayment;
         });
 
