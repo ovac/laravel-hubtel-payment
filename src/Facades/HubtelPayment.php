@@ -1,7 +1,6 @@
 <?php
 
 /**
- * @package     OVAC/Laravel-Hubtel-Payment
  * @link        https://github.com/ovac/laravel-hubtel-payment
  *
  * @author      Ariama O. Victor (OVAC) <contact@ovac4u.com>
@@ -14,10 +13,9 @@
 namespace OVAC\LaravelHubtelPayment\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use OVAC\LaravelHubtelPayment\LaravelHubtelPayment;
 
 /**
- * class HubtelPayment
+ * class HubtelPayment.
  *
  * This facade is the main entry for this application.
  *
