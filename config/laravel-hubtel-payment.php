@@ -1,6 +1,7 @@
 <?php
 
 /**
+ * @package     OVAC/Laravel-Hubtel-Payment
  * @link        https://github.com/ovac/laravel-hubtel-payment
  *
  * @author      Ariama O. Victor (OVAC) <contact@ovac4u.com>
@@ -39,13 +40,13 @@ return [
 
     'client' => [
 
-        /*
+        /**
          * Define this variable in your .env file or replace the 'null'
          * with your Hubtel Merchannt Client ID
          */
 
         'id' => env('HUBTEL_CLIENT_ID', null),
-        /*
+        /**
          * Define this variable in your .env file or replace the 'null'
          * with your Hubtel Merchannt Client Secret
          */

@@ -1,6 +1,7 @@
 <?php
 
 /**
+ * @package     OVAC/Laravel-Hubtel-Payment
  * @link        https://github.com/ovac/laravel-hubtel-payment
  *
  * @author      Ariama O. Victor (OVAC) <contact@ovac4u.com>
@@ -12,16 +13,16 @@
 
 namespace OVAC\LaravelHubtelPayment\Tests;
 
-use OVAC\HubtelPayment\Config;
 use Orchestra\Testbench\TestCase;
-use OVAC\HubtelPayment\Api\Transaction\Refund;
-use OVAC\LaravelHubtelPayment\ServiceProvider;
-use OVAC\HubtelPayment\Api\Transaction\SendMoney;
-use OVAC\LaravelHubtelPayment\LaravelHubtelPayment;
 use OVAC\HubtelPayment\Api\Transaction\ReceiveMoney;
+use OVAC\HubtelPayment\Api\Transaction\Refund;
+use OVAC\HubtelPayment\Api\Transaction\SendMoney;
+use OVAC\HubtelPayment\Config;
 use OVAC\LaravelHubtelPayment\Facades\HubtelPayment;
+use OVAC\LaravelHubtelPayment\LaravelHubtelPayment;
+use OVAC\LaravelHubtelPayment\ServiceProvider;
 
-class laravelHubtelPaymentTest extends TestCase
+class LaravelHubtelPaymentTest extends TestCase
 {
     protected function getPackageProviders($app)
     {

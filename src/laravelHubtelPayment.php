@@ -1,6 +1,7 @@
 <?php
 
 /**
+ * @package     OVAC/Laravel-Hubtel-Payment
  * @link        https://github.com/ovac/laravel-hubtel-payment
  *
  * @author      Ariama O. Victor (OVAC) <contact@ovac4u.com>
@@ -12,11 +13,11 @@
 
 namespace OVAC\LaravelHubtelPayment;
 
-use OVAC\HubtelPayment\Pay;
 use OVAC\HubtelPayment\Config;
+use OVAC\HubtelPayment\Pay;
 
 /**
- * class LaravelHubtelPayment.
+ * class LaravelHubtelPayment
  *
  * This class extends the \OVAC\HubtelPayment\Pay::class class and pre-assisgs a
  * few configuration that can be easily swapped and built upon for a seamless
@@ -25,11 +26,11 @@ use OVAC\HubtelPayment\Config;
  *
  * It is also the main entry class for this package.
  */
-class laravelHubtelPayment extends Pay
+class LaravelHubtelPayment extends Pay
 {
     /**
      * This method returns an instance of the \OVAC\HubtelPayment\Config created with
-     * the hubtel client account expected in the Laravel Hubtel Payment congiguration.
+     * the hubtel client account expected in the Laravel Hubtel Payment congiguration
      *
      * @return \OVAC\HubtelPayment\Config
      */
@@ -66,6 +67,8 @@ class laravelHubtelPayment extends Pay
             ])
 
         // Inject the Merchant Configuration required by the \OVAC\HubtelPayment package
-            ->injectConfig($this->getConfig());
+            ->injectConfig($this->getConfig())
+        ;
     }
+
 }
