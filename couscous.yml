@@ -62,6 +62,6 @@ menu:
                     text: Hubtel Official Api Swagger UI
                     absoluteUrl: https://api.hubtel.com/v1/merchantaccount/swagger/ui/index
                     
-                ovac-hubtel-payment:
+                ovac:
                     text: See who's behind this.
                     absoluteUrl: https://www.ovac4u.com
