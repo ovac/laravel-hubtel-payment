@@ -14,7 +14,7 @@
 namespace OVAC\LaravelHubtelPayment;
 
 /**
- * class ServiceProvider
+ * class ServiceProvider.
  */
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
@@ -34,7 +34,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
     }
 
     /**
-     * Binds this package with the Laravel Application
+     * Binds this package with the Laravel Application.
      *
      * @return void
      */
