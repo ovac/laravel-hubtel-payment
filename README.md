@@ -1,3 +1,13 @@
+<p align="center" style="border: 5px solid #000000">
+<a href="https://developers.hubtel.com/documentations/merchant-account-api" target="_blank"><img src="http://res.cloudinary.com/ovac/image/upload/h_200/v1506824544/4a_Uw7r_ljybq3.jpg"></a>
+<a href="#" target="_blank"><img src="http://res.cloudinary.com/ovac/image/upload/h_120/v1506828786/logo-composer-transparent_zjgal0.png"></a>
+<a href="#" target="_blank"><img src="http://res.cloudinary.com/ovac/image/upload/h_200/v1506832992/laravel-logo_atlvfw.png"></a>
+<br>
+<a href="http://www.ovac4u.com/hubtel-payment" target="_blank"><img src="http://res.cloudinary.com/ovac/image/upload/v1506828380/logo_size_invert_jelh74.jpg"></a>
+</p>
+
+---
+
 # Laravel Hubtel Payment
 A Laravel 5.5 integration for the [OVAC Hubtel Payment](https://www.ovac4u.com/hubtel-payment) package.
 
