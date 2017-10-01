@@ -158,7 +158,7 @@ instead of using the issue tracker.
 
 - [All contributors](https://github.com/ovac/laravel-hubtel-payment/graphs/contributors)
 
-## Links
+## Reference
 - [Documentation/Official Page](https://www.ovac4u.com/laravel-hubtel-payment)
 - [Official Repo: Github](https://github.com/ovac/laravel-hubtel-payment)
 - [Hubtel Merchant Payment Reference](https://developers.hubtel.com/documentations/merchant-account-api)
@@ -170,7 +170,7 @@ instead of using the issue tracker.
 
 Why not star the github repo? I'd love the attention! Why not share the link for this repository on Twitter or HackerNews? Spread the word!
 
-Don't forget to follow me on twitter, instagram and facebook @ovac4u
+Don't forget to follow me on [instagram](http://www.instagram.com/ovac4u) and [twitter](http://www.twitter.com/ovac4u) 
 
 Thanks!
 Ariama Victor (ovac4u).
