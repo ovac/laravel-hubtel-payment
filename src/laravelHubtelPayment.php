@@ -13,8 +13,8 @@
 
 namespace OVAC\LaravelHubtelPayment;
 
-use OVAC\HubtelPayment\Pay;
 use OVAC\HubtelPayment\Config;
+use OVAC\HubtelPayment\Pay;
 
 /**
  * class LaravelHubtelPayment.
@@ -26,7 +26,7 @@ use OVAC\HubtelPayment\Config;
  *
  * It is also the main entry class for this package.
  */
-class laravelHubtelPayment extends Pay
+class LaravelHubtelPayment extends Pay
 {
     /**
      * This method returns an instance of the \OVAC\HubtelPayment\Config created with
