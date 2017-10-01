@@ -8,7 +8,7 @@
 
 ---
 
-# Laravel Hubtel Payment
+# Laravel Hubtel Payment 
 A Laravel 5.5 integration for the [OVAC Hubtel Payment](https://www.ovac4u.com/hubtel-payment) package.
 
 [![Build Status](https://travis-ci.org/ovac/laravel-hubtel-payment.svg?branch=master)](https://travis-ci.org/ovac/laravel-hubtel-payment)
@@ -145,6 +145,10 @@ $payment = HubtelPayment::Refund()
                 ->run();                            //- Run the transaction after required data.
 ```
 
+## Contributing
+
+Thank you for considering contributing to Laravel Hackathon Starter. The contribution guide can be found in the [Contribution File](https://github.com/ovac/laravel-hubtel-payment/blob/master/CONTRIBUTING.md)
+
 ## Security
 
 If you discover any security related issues, please email 
@@ -152,10 +156,21 @@ instead of using the issue tracker.
 
 ## Credits
 
+- [All contributors](https://github.com/ovac/laravel-hubtel-payment/graphs/contributors)
+
+## Links
 - [Documentation/Official Page](https://www.ovac4u.com/laravel-hubtel-payment)
 - [Official Repo: Github](https://github.com/ovac/laravel-hubtel-payment)
 - [Hubtel Merchant Payment Reference](https://developers.hubtel.com/documentations/merchant-account-api)
 - [Laravel framework](http://laravel.com)
-- [LICENCE: MIT](https://github.com/ovac/hubtel-payment/blob/licence)
-- [All contributors](https://github.com/ovac/laravel-hubtel-payment/graphs/contributors)
-- [CHANGELOG](https://github.com/ovac/hubtel-payment/blob/master/CHANGELOG.md)
+- [LICENCE: MIT](https://github.com/ovac/laravel-hubtel-payment/blob/licence)
+- [CHANGELOG](https://github.com/ovac/laravel-hubtel-payment/blob/master/CHANGELOG.md)
+
+## How can I thank you?
+
+Why not star the github repo? I'd love the attention! Why not share the link for this repository on Twitter or HackerNews? Spread the word!
+
+Don't forget to follow me on twitter, instagram and facebook @ovac4u
+
+Thanks!
+Ariama Victor (ovac4u).
