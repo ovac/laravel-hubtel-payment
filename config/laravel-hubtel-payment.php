@@ -26,7 +26,7 @@ return [
     | Example: HM2707170000
      */
 
-    'account_number' => env('HUBTEL_ACCONUT_NUMBER', null),
+    'account_number' => env('HUBTEL_ACCOUNT_NUMBER', null),
 
     /*
     |--------------------------------------------------------------------------
