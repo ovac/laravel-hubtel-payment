@@ -23,7 +23,7 @@ install:
   - travis_retry composer require --dev satooshi/php-coveralls
 
 script:
-  - composer run phpunit -- --coverage-clover ./tests/logs/clover.xml
+  - composer run phpunit -- --coverage-clover ./build/phpunit-clover-coverage.xml
   - composer coverage
   
 after_script:
