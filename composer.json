@@ -20,7 +20,7 @@
   },
   "require-dev": {
     "orchestra/testbench": "~3.4|~3.5|~3.6",
-    "phpunit/phpunit": "~6.0|~7.0",
+    "phpunit/phpunit": "~5.0|~6.0|~7.0",
     "squizlabs/php_codesniffer": "^2.9.1",
     "leaphub/phpcs-symfony2-standard": "^2.0.3",
     "phpmd/phpmd" : "^2.6.0",
