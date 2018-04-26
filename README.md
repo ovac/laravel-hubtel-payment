@@ -1,9 +1,9 @@
 <p align="center" style="border: 5px solid #000000">
-<a href="https://developers.hubtel.com/documentations/merchant-account-api" target="_blank"><img src="http://res.cloudinary.com/ovac/image/upload/h_200/v1506824544/4a_Uw7r_ljybq3.jpg"></a>
-<a href="#" target="_blank"><img src="http://res.cloudinary.com/ovac/image/upload/h_120/v1506828786/logo-composer-transparent_zjgal0.png"></a>
-<a href="#" target="_blank"><img src="http://res.cloudinary.com/ovac/image/upload/h_200/v1506832992/laravel-logo_atlvfw.png"></a>
+<a href="https://developers.hubtel.com/documentations/merchant-account-api" target="_blank"><img src="https://res.cloudinary.com/ovac/image/upload/h_200/v1506824544/4a_Uw7r_ljybq3.jpg"></a>
+<a href="#" target="_blank"><img src="https://res.cloudinary.com/ovac/image/upload/h_120/v1506828786/logo-composer-transparent_zjgal0.png"></a>
+<a href="#" target="_blank"><img src="https://res.cloudinary.com/ovac/image/upload/h_200/v1506832992/laravel-logo_atlvfw.png"></a>
 <br>
-<a href="http://www.ovac4u.com/hubtel-payment" target="_blank"><img src="http://res.cloudinary.com/ovac/image/upload/v1506828380/logo_size_invert_jelh74.jpg"></a>
+<a href="https://www.ovac4u.com/hubtel-payment" target="_blank"><img src="https://res.cloudinary.com/ovac/image/upload/v1506828380/logo_size_invert_jelh74.jpg"></a>
 </p>
 
 ---
@@ -38,7 +38,7 @@ With this package, it is easy to process mobile money transactions and automate 
 
 ## Installation
 
-This packages utilize [Composer](http://getcomposer.org/), for more information on how to install Composer please read the [Composer Documentation](https://getcomposer.org/doc/00-intro.md).
+This packages utilize [Composer](https://getcomposer.org/), for more information on how to install Composer please read the [Composer Documentation](https://getcomposer.org/doc/00-intro.md).
 
 Install via composer
 ```sh
@@ -162,7 +162,7 @@ instead of using the issue tracker.
 - [Documentation/Official Page](https://www.ovac4u.com/laravel-hubtel-payment)
 - [Official Repo: Github](https://github.com/ovac/laravel-hubtel-payment)
 - [Hubtel Merchant Payment Reference](https://developers.hubtel.com/documentations/merchant-account-api)
-- [Laravel framework](http://laravel.com)
+- [Laravel framework](https://laravel.com)
 - [LICENCE: MIT](https://github.com/ovac/laravel-hubtel-payment/blob/licence)
 - [CHANGELOG](https://github.com/ovac/laravel-hubtel-payment/blob/master/CHANGELOG.md)
 
@@ -170,7 +170,7 @@ instead of using the issue tracker.
 
 Why not star the github repo? I'd love the attention! Why not share the link for this repository on Twitter or HackerNews? Spread the word!
 
-Don't forget to follow me on [instagram](http://www.instagram.com/ovac4u) and [twitter](http://www.twitter.com/ovac4u) 
+Don't forget to follow me on [instagram](https://www.instagram.com/ovac4u) and [twitter](https://www.twitter.com/ovac4u) 
 
 Thanks!
 Ariama Victor (ovac4u).
